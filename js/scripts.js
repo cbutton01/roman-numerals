@@ -72,7 +72,10 @@ function numeralIX (number){
 
 function finalResult (number){
   var finalOutput = ""
-  if (number >= 6 && number <= 9) {
+  if (number >= 1 && number < 4){
+    finalOutput += numeralIValue(number);
+    return finalOutput;
+  } else if (number >= 6 && number <= 9) {
       finalOutput = "V";
       var currentNumber = number - 5;
       var sixToEight = finalOutput + numeralIValue(currentNumber);
