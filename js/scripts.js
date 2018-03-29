@@ -57,3 +57,25 @@ function numeralMValue (number){
   }
   return finalOutput;
 }
+
+function numeralIV (number){
+  if (number === 4){
+    return "IV";
+  }
+}
+
+function numeralIX (number){
+  if (number === 9){
+    return "IX";
+  }
+}
+
+function finalResult (number){
+  var finalOutput = ""
+  if (number >= 6 && number <= 9) {
+      finalOutput = "V";
+      var currentNumber = number - 5;
+      var sixToEight = finalOutput + numeralIValue(currentNumber);
+      return sixToEight;
+    }
+  }

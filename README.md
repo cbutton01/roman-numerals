@@ -1,8 +1,8 @@
-# Scrabble Score Checker
+# Roman Numerals
 
-#### A program that allows users to input a word and determine its raw Scrabble score, assuming no special tiles. 6/1/17
+#### . 3/29/18
 
-#### By **Marilyn Carlin and David Wilson**
+#### By **Jared lutz and**
 
 ## Description
 
@@ -37,7 +37,7 @@ A website created with C# and HTML where a user can submit a word and determine 
 | spec | 13 | XIII |
 | spec | 14 | XIV |
 | spec | 15 | XV |
-
+| spec | 16 | XVI |
 ## Setup/Installation Requirements
 
 1. To run this program, you must have a C# compiler. I use [Mono](http://www.mono-project.com).
