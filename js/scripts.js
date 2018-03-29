@@ -29,7 +29,6 @@ function numeralIValue (number) {
 }
 
 function numeralXValue (number){
-  debugger;
   var finalOutput = "";
   numberOfX = number / 10;
   for (var i = 1; i <= numberOfX; i++) {
@@ -69,16 +68,51 @@ function numeralIX (number){
     return "IX";
   }
 }
+function moreThanTen (number){
+  var finalOutput = ""
+  if (number > 10 && number <= 13){
+    finalOutput = "X"
+    var currentNumber = number - 10;
+    var elevenToThirteen = finalOutput + numeralIValue(currentNumber);
+    return elevenToThirteen;
+  } else if (number === 14){
+    finalOutput = "X"
+    var currentNumber = number - 10;
+    var fourteen = finalOutput + numeralIV(currentNumber);
+    return fourteen;
+  } else if (number === 15){
+    finalOutput = "X"
+    var currentNumber = number - 10;
+    var fifteen = finalOutput + numerals(currentNumber);
+    return fifteen;
+  } else if (number >= 16 && number < 19){
+    finalOutput = "XV";
+    var currentNumber = number - 15;
+    var sixteenToEighteen = finalOutput + numeralIValue(currentNumber);
+    return sixteenToEighteen
+  }
+}
+
 
 function finalResult (number){
   var finalOutput = ""
-  if (number >= 1 && number < 4){
-    finalOutput += numeralIValue(number);
-    return finalOutput;
-  } else if (number >= 6 && number <= 9) {
-      finalOutput = "V";
-      var currentNumber = number - 5;
-      var sixToEight = finalOutput + numeralIValue(currentNumber);
-      return sixToEight;
-    }
+  var arrayOfNumbers = thisResult(number);
+//this loop isn't finished.
+  for (var i = 0; i < arrayOfNumbers.length; i++) {
+    if(arrayOfNumbers.cha)
   }
+  // if (number >= 1 && number < 4){
+  //   finalOutput += numeralIValue(number);
+  //   return finalOutput;
+  // } else if (number >= 6 && number <= 9) {
+  //     finalOutput = "V";
+  //     var currentNumber = number - 5;
+  //     var sixToEight = finalOutput + numeralIValue(currentNumber);
+  //     return sixToEight;
+  //   }
+  }
+
+function thisResult (number) {
+  var digits = (''+number).split('');
+  return digits;
+}

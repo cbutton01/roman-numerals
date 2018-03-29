@@ -1,12 +1,12 @@
 # Roman Numerals
 
-#### . 3/29/18
+#### website that translates digits to roman numerals. 3/29/18
 
-#### By **Jared lutz and**
+#### By **Jared lutz and Cam Button**
 
 ## Description
 
-A website created with C# and HTML where a user can submit a word and determine its raw Scrabble score.
+A website that translates digits to roman numerals
 
 
 ### Specs
@@ -40,23 +40,21 @@ A website created with C# and HTML where a user can submit a word and determine 
 | spec | 16 | XVI |
 ## Setup/Installation Requirements
 
-1. To run this program, you must have a C# compiler. I use [Mono](http://www.mono-project.com).
-2. Install the [Nancy](http://nancyfx.org/) framework to use the view engine. Follow the link for installation instructions.
-3. Clone this repository.
-4. Open the command line--I use PowerShell--and navigate into the repository. Use the command "dnx kestrel" to start the server.
-5. On your browser, navigate to "localhost:5004" and enjoy!
+1. clone the roman-numeral repository
+2. open the roman-numeral folder
+3. double click or drag index.html to your browser
+4. that's it you're done!
 
 ## Known Bugs
-* No known bugs at this time.
+* Not a fully functional anything.
 
 ## Technologies Used
-* C#
-  * Nancy framework
-  * Razor View Engine
-  * ASP.NET Kestrel HTTP server
-  * xUnit
-
 * HTML
+* Javascript
+* Jquery
+* bootstrap
+* css
+
 
 ## Support and contact details
 
@@ -66,4 +64,4 @@ _Email no one with any questions, comments, or concerns._
 
 *{This software is licensed under the MIT license}*
 
-Copyright (c) 2017 **_{Marilyn Carlin, David Wilson}_**
+Copyright (c) 2017 **_{Jared Lutz, Cam Button}_**
